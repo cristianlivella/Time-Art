@@ -22,4 +22,4 @@ We used this test to try the communication with Arduino Ethernet Shield 2, contr
 ***nb***: *we used the IPs `192.168.1.11` and `192.168.1.12` for the Arduino; if you want to use other IP addresses you should edit `ethernetBlink.php`.*
 
 ## Video
-[![Youtube vieo](https://img.youtube.com/vi/PaozKFauqRA/0.jpg)](https://youtu.be/PaozKFauqRA)
+[![Youtube video](https://img.youtube.com/vi/PaozKFauqRA/0.jpg)](https://youtu.be/PaozKFauqRA)
