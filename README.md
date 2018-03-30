@@ -14,4 +14,4 @@ This Ethernet Shield is made by arduino.org, so the library to use in the sketch
 In this case you must download the library [Ethernet2](https://github.com/EsperiaPON/Time-Art/blob/master/Ethernet2.zip) from [here](https://github.com/EsperiaPON/Time-Art/blob/master/Ethernet2.zip) and [install it](https://www.arduino.cc/en/Guide/Libraries#toc2) into your Arduino IDE.
 
 ## RGB lights
-The RGB lights we will use are natively controlled by an infrared remote control, so to control them from Arduino we will use an infrared LED for every light._
+The RGB lights we will use are natively controlled by an infrared remote control, so to control them from Arduino we will use an infrared LED for every light.
