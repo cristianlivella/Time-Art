@@ -50,7 +50,7 @@ https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
 If you did everything correctly, now you could connect your computer to the same switch where is connected the port **eth0** of the Raspberry, start an SSH session to the Raspberry with the IP 192.168.1.1 and also surf the Internet.
 
 ## Useful links
-https://www.raspberrypi.org/documentation/installation/installing-images/
-https://www.raspberrypi.org/forums/viewtopic.php?t=129727
-https://medium.com/linagora-engineering/using-a-pi-3-as-a-ethernet-to-wifi-router-2418f0044819
+https://www.raspberrypi.org/documentation/installation/installing-images/  
+https://www.raspberrypi.org/forums/viewtopic.php?t=129727  
+https://medium.com/linagora-engineering/using-a-pi-3-as-a-ethernet-to-wifi-router-2418f0044819  
 https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
