@@ -37,7 +37,7 @@ and uncomment the following line in this file
 * make the script executable  
 `sudo chmod +x /home/pi/startnetwork.sh`
 * `sudo nano /etc/rc.local`
-and add the following line in the file, above the line `exit 0`:
+and add the following line in the file, above the line `exit 0`:  
 `/home/pi/startnetwork.sh`
 * connect the port **eth0** to the Ethernet switch, and reboot the Raspberry
 `sudo reboot`
