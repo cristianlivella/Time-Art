@@ -4,6 +4,7 @@ By following these steps you will have a Raspberry PI with 2 Ethernet ports:
 * **eth0**, the Ethernet port on the Raspberry, it must be connected to an Ethernet hub/switch where will also be connected the Arduino
 * **eth1**, the Ethernet port on the external adapter, it must be connected to our existing home/company network.
 
+![Image](https://i.imgur.com/KRMzjIq.png)
 The Raspberry PI will create a 192.168.1.x network on the **eth0**, and it will receive a IP from the DHCP of the home/company network on **eth1**.  
 The advantages of this setup is that we can be independent, because we can use the Raspberry without connect its **eth1** to a network, and control the Arduino using a PC connected at the same switch, but when we want we can do it, to be able to control our group of Arduino and RGB lights even remotely.
 
