@@ -45,6 +45,8 @@ and add the following line in the file, above the line `exit 0`:
 ## Install and configure the web server
 Follow these instructions:  
 https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
+Finally install cURL:
+`sudo apt-get install php-curl`
 
 ## Conclusions
 If you did everything correctly, now you could connect your computer to the same switch where is connected the port **eth0** of the Raspberry, start an SSH session to the Raspberry with the IP 192.168.1.1 and also surf the Internet.
