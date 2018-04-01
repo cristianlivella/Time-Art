@@ -1,0 +1,64 @@
+.container.main {
+	margin-top: 20px;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.color-picker-container {
+	text-align: center;
+	height: 257px;
+	padding-top: 50px;
+}
+
+.card.mb-4 {
+	height: 257px;
+}
+
+.box-shadow {
+	border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.ledimg {
+	height: 180px;
+	width: 240px;
+	margin: 0 auto;
+}
+
+.btnled {
+	border-radius: 0px;
+}
+
+.checkboxbig {
+	height: 18px;
+	width: 18px;
+}
+
+.checkboxcontainer {
+	text-align: center;
+}
+
+th.center {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+.circle {
+	border: 1px solid #000000;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -4px;
+	display: inline-block;
+}
+
+.color-picker.static {
+	display:inline-block !important;
+	position:static !important;
+	top:0 !important;
+	left:0 !important;
+}
