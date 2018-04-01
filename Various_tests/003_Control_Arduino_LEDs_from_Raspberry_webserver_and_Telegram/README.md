@@ -2,7 +2,7 @@
 
 ## Introduction
 We used this test to try the communication with Arduino Ethernet Shield 2, controlling an RGB LED, a green LED and a red LED of two Arduino from a Raspberry PI via Ethernet, configured like explained here:  
-***[Raspberry PI as router and server](../001_Raspberry_PI_as_router_and_server/README.md)***.  
+[***Raspberry PI as router and server***](../001_Raspberry_PI_as_router_and_server/README.md).  
 The LEDs can be controlled with a web page on the Raspberry and with a Telegram bot.  
 You can also use more then two Arduino, just insert all the IPs in the array `$IPs` in `config.php` on Raspberry.
 
