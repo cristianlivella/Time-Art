@@ -2,7 +2,7 @@
 
 ## Introduction
 We used this test to try the communication with Arduino Ethernet Shield 2, controlling an RGB LED, a green LED and a red LED of two Arduino from a Raspberry PI via Ethernet, configured like explained here:  
-***[Raspberry PI as router and server](Various_tests/001_Raspberry_PI_as_router_and_server/README.md)***.  
+***[Raspberry PI as router and server](../001_Raspberry_PI_as_router_and_server/README.md)***.  
 The LEDs can be controlled with a web page on the Raspberry and with a Telegram bot.  
 You can also use more then two Arduino, just insert all the IPs in the array `$IPs` in `config.php` on Raspberry.
 
@@ -10,10 +10,10 @@ You can also use more then two Arduino, just insert all the IPs in the array `$I
 ![Circuit](https://i.imgur.com/eXkAa2X.png)
 
 ## Arduino sketch
-Upload the sketch [controlLedEthernet.ino](Various_tests/003_Control_Arduino_LEDs_from_Raspberry_webserver_and_Telegram/controlLedEthernet.ino) on each Arduino; **remember to edit** the MAC address (it is printed on a label on the shield) and the IP address (must be different for each device).
+Upload the sketch [controlLedEthernet.ino](controlLedEthernet.ino) on each Arduino; **remember to edit** the MAC address (it is printed on a label on the shield) and the IP address (must be different for each device).
 
 ## Webserver
-Download the folder [html](Various_tests/003_Control_Arduino_LEDs_from_Raspberry_webserver_and_Telegram/html), put all the files in `/var/www/html/` on your Raspberry PI and edit `config.php` with the IPs of your Arduino.  
+Download the folder [html](html), put all the files in `/var/www/html/` on your Raspberry PI and edit `config.php` with the IPs of your Arduino.  
 You can now open a web browser and insert the IP of your Raspberry in the address bar to access to the dashboard.
 ![Screenshot](https://i.imgur.com/ottQKz0.png)
 

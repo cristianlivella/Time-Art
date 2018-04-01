@@ -2,16 +2,16 @@
 
 ## Introduction
 We used this test to try the communication with Arduino Ethernet Shield 2, controlling a LED on the pin 5 of two Arduino from a Raspberry PI via Ethernet, configured like explained here:  
-***[Raspberry PI as router and server](Various_tests/001_Raspberry_PI_as_router_and_server/README.md)***.
+***[Raspberry PI as router and server](../001_Raspberry_PI_as_router_and_server/README.md)***.
 
 ## Circuit
 ![Circuit](https://i.imgur.com/GFU5OVK.png)
 
 ## Arduino sketch
-[ethernetBlink.ino](Various_tests/002_Ethernet_blink/ethernetBlink.ino)
+[ethernetBlink.ino](ethernetBlink.ino)
 
 ## PHP script
-[ethernetBlink.php](Various_tests/002_Ethernet_blink/ethernetBlink.php)
+[ethernetBlink.php](ethernetBlink.php)
 
 ## How to use
 * put the Ethernet Shield 2 on the two Arduino
