@@ -2,7 +2,7 @@
 
 ## Introduction
 We used this test to try the communication with Arduino Ethernet Shield 2, controlling a LED on the pin 5 of two Arduino from a Raspberry PI via Ethernet, configured like explained here:  
-***[Raspberry PI as router and server](../001_Raspberry_PI_as_router_and_server/README.md)***.
+[***Raspberry PI as router and server***](../001_Raspberry_PI_as_router_and_server/README.md).
 
 ## Circuit
 ![Circuit](https://i.imgur.com/GFU5OVK.png)
