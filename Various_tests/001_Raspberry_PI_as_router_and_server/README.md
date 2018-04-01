@@ -32,9 +32,9 @@ and uncomment the following line in this file
 * install a DHCP server  
 `sudo apt-get install isc-dhcp-server`  
 `sudo service isc-dhcp-server stop`
-* replace this file (`/etc/default/isc-dhcp-server`) with [this](https://github.com/EsperiaPON/Time-Art/blob/master/Various_tests/001_Raspberry_PI_as_router_and_server/isc-dhcp-server)
-* replace the DHCP configuration file (`/etc/dhcp/dhcpd.conf`) with [this](https://github.com/EsperiaPON/Time-Art/blob/master/Various_tests/001_Raspberry_PI_as_router_and_server/dhcpd.conf)
-* create in `/home/pi` a file `startnetwork.sh` like [this](https://github.com/EsperiaPON/Time-Art/blob/master/Various_tests/001_Raspberry_PI_as_router_and_server/startnetwork.sh)
+* replace this file (`/etc/default/isc-dhcp-server`) with [this](Various_tests/001_Raspberry_PI_as_router_and_server/isc-dhcp-server)
+* replace the DHCP configuration file (`/etc/dhcp/dhcpd.conf`) with [this](Various_tests/001_Raspberry_PI_as_router_and_server/dhcpd.conf)
+* create in `/home/pi` a file `startnetwork.sh` like [this](Various_tests/001_Raspberry_PI_as_router_and_server/startnetwork.sh)
 * make the script executable  
 `sudo chmod +x /home/pi/startnetwork.sh`
 * `sudo nano /etc/rc.local`

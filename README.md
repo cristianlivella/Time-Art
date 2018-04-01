@@ -11,7 +11,7 @@ To every Arduino will be connected an infrared LED, to control the RGB light, an
 ## Ethernet Shield 2
 In each Arduino will be plugged an Ethernet Shield 2 to connect it at the LAN.  
 This Ethernet Shield is made by arduino.org, so the library to use in the sketches is not included in the Arduino IDE, if you have downloaded it from arduino.cc.  
-In this case you must download the library [Ethernet2](https://github.com/EsperiaPON/Time-Art/blob/master/Ethernet2.zip) from [here](https://github.com/EsperiaPON/Time-Art/blob/master/Ethernet2.zip) and [install it](https://www.arduino.cc/en/Guide/Libraries#toc2) into your Arduino IDE.
+In this case you must download the library [Ethernet2](Ethernet2.zip) from [here](Ethernet2.zip) and [install it](https://www.arduino.cc/en/Guide/Libraries#toc2) into your Arduino IDE.
 
 ## RGB lights
 The RGB lights we will use are natively controlled by an infrared remote control, so to control them from Arduino we will use an infrared LED for every light.
