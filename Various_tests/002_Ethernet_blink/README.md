@@ -14,10 +14,10 @@ We used this test to try the communication with Arduino Ethernet Shield 2, contr
 [ethernetBlink.php](ethernetBlink.php)
 
 ## How to use
-* put the Ethernet Shield 2 on the two Arduino
+* Put the Ethernet Shield 2 on the two Arduino
 * upload the sketch `ethernetBlink.ino` on each Arduino; **remember to edit** the MAC address (it is printed on a label on the shield) and the IP address (must be different for each device)
 * put the script `ethernetBlink.php` on the Raspberry and run it:  
-`php ethernetBlink.php`
+`php ethernetBlink.php`.
 
 ***nb***: *we used the IPs `192.168.1.11` and `192.168.1.12` for the Arduino; if you want to use other IP addresses you should edit `ethernetBlink.php`.*
 

@@ -16,12 +16,12 @@ The advantages of this setup is that we can be independent, because we can use t
 * some Ethernet cables
 
 ## Install Raspbian
-* download the image from [here](https://downloads.raspberrypi.org/raspbian_lite_latest)
+* Download the image from [here](https://downloads.raspberrypi.org/raspbian_lite_latest)
 * write the image to the SD using [Etcher](https://etcher.io/) or your favorite software
 * make a text file with name *ssh*, and put in the boot partition of the SD card
 * using an Ethernet cable, connect the port **eth1** on the Ethernet adapter to a port on your home/company network
 * find the IP of the Raspberry using an [IP scanner](https://www.advanced-ip-scanner.com/), and connect to it with [Putty](https://www.putty.org/), [MobaXterm](https://mobaxterm.mobatek.net/) or any other SSH software
-* **CHANGE THE PASSWORD** of the pi account with the command `passwd`
+* **CHANGE THE PASSWORD** of the pi account with the command `passwd`.
 
 ## Configure the Raspberry as router
 * `sudo nano /etc/sysctl.conf`  
@@ -40,14 +40,14 @@ and uncomment the following line in this file
 * `sudo nano /etc/rc.local`
 and add the following line in the file, above the line `exit 0`:  
 `/home/pi/startnetwork.sh`
-* connect the port **eth0** to the Ethernet switch, and reboot the Raspberry
-`sudo reboot`
+* connect the port **eth0** to the Ethernet switch, and reboot the Raspberry  
+`sudo reboot`.
 
 ## Install and configure the web server
 Follow these instructions:  
-https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
+https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md.
 Finally install cURL:  
-`sudo apt-get install php-curl`
+`sudo apt-get install php-curl`.
 
 ## Conclusions
 If you did everything correctly, now you could connect your computer to the same switch where is connected the port **eth0** of the Raspberry, start an SSH session to the Raspberry with the IP 192.168.1.1 and also surf the Internet.
