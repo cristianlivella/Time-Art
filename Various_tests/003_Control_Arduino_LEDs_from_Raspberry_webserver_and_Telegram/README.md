@@ -15,7 +15,7 @@ Upload the sketch [controlLedEthernet.ino](controlLedEthernet.ino) on each Ardui
 ## Webserver
 Download the folder [html](html), put all the files in `/var/www/html/` on your Raspberry PI and edit `config.php` with the IPs of your Arduino.  
 You can now open a web browser and insert the IP of your Raspberry in the address bar to access to the dashboard.
-![Screenshot](https://i.imgur.com/ottQKz0.png)
+![Screenshot](https://i.imgur.com/vaQYsyz.png)
 
 ## Telegram bot configuration
 If you want to control the LEDs also with a Telegram bot, you have to:
