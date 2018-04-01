@@ -45,7 +45,7 @@ and add the following line in the file, above the line `exit 0`:
 
 ## Install and configure the web server
 Follow these instructions:  
-https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md.
+https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md.  
 Finally install cURL:  
 `sudo apt-get install php-curl`.
 
