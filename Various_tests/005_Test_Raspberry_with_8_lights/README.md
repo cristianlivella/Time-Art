@@ -19,7 +19,7 @@ We used this test to try the Raspberry with all the Arduino and all the lights.
 * connect the IR LED to the PIN 3 of each Arduino
 
 ## Arduino sketch
-Upload the sketch [sketch.ino](sketch.ino) on each Arduino; **remember to edit** the MAC address at the lines 48-49 (it is printed on a label on the shield) and the IP address (must be different for each device).
+Upload the sketch [sketch.ino](sketch.ino) on each Arduino; **remember to edit** the MAC address (it is printed on a label on the shield) and the IP address (must be different for each device) at the lines 48-49.
 
 ## Configuration file
 Insert in the file `ip.txt` all the Arduino IPs, one for each line.
