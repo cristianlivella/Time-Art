@@ -1,4 +1,4 @@
-#include <SPI.h>
+sketch.ino#include <SPI.h>
 #include <Ethernet2.h>
 #include <IRremote.h>
 
@@ -45,9 +45,9 @@ unsigned long codeValue;
 int codeLen=32;
 
 //ETHERNET
-byte mac[] = { 0x90, 0xA2 , 0xDA, 0x11, 0x17, 0x31 };
-byte ip[] = { 10, 205, 0, 18 };
-int ledPin = 5;
+byte mac[] = { 0xAA, 0xBB , 0xCC, 0xDD, 0xEE, 0xFF };
+byte ip[] = { 192, 168, 1, 11 };
+int ledPin = 3;
 
 EthernetServer server(80);
 String httpGet;
@@ -67,7 +67,7 @@ void sendCode(unsigned int command) {//MANDARE COSE
     }
   delay(15);
   }
-  
+
 }
 
 void setup() {
