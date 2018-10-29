@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
- 
+
 ################ ITIS Paleocapa 2018 ################
 # Main developers: Cristian Livella, Matteo Soldini #
 #             Project: Esperia Time Art             #
 #####################################################
- 
+
 import threading, time, telepot, telepot.loop, sys, os, requests, random
 from Tkinter import *
- 
+
 ### CONFIGURAZIONE ###
 # Token bot Telegram
-botToken = "586571665:AAH6lXEgiiR3iBu_G-CBkA83wM4ndO_CuB4"
- 
+botToken = "0123456789:BOT_TOKEN"
+
 # Chat id consentiti
-allowedChatId = [45395590,296001158,26579149,168562936,478291568,419250460,164062179,213959477,443989610]
+allowedChatId = []
 
 # Colori
 colors = [
@@ -53,7 +53,7 @@ hex_colors = [
     "#c6b16e",
     "#ad24dd"
     ]
- 
+
 # IP Arduino
 ips = [
 	"10.205.0.11",
@@ -65,16 +65,16 @@ ips = [
 	"10.205.0.17",
 	"10.205.0.18",
 	]
- 
+
 # Numero di giochi disponibili
 nGiochi = 4
- 
+
 verbose = 2
- 
+
 #########################################
 ### NON MODIFICARE SOTTO QUESTA LINEA ###
 #########################################
- 
+
 arduinoOnline = [0] * len(ips)
 timeDelay = 500
 stato = 0
@@ -82,7 +82,7 @@ stato = 0
 finestre_gui = list()
 canvas_gui = 0
 window_gui = 0
- 
+
 class ThreadManager(threading.Thread):
     def __init__(self, function):
         self.running = False
@@ -99,7 +99,7 @@ class ThreadManager(threading.Thread):
                 pass
     def stop(self):
         self.running = False
- 
+
 def checkArduinoOnline():
     global arduinoOnline
     if (verbose>=2):
@@ -115,20 +115,20 @@ def checkArduinoOnline():
             if (verbose>=2):
                 print('Arduino a '+ips[x]+': OFFLINE')
     time.sleep(10)
- 
+
 def countArduinoOnline():
     count = 0
     for x in range(len(ips)):
         if (arduinoOnline[x]==1):
             count += 1
     return count
- 
+
 def getStato():
     if (stato==0):
         return 'off'
     else:
         return 'gioco '+str(stato)
- 
+
 def startGameThread():
     global gameThread
     if (verbose>=1):
@@ -141,7 +141,7 @@ def startGameThread():
     except:
         if (verbose>=2):
             print('Impossibile avviare il game thread (potrebbe essere già attivo)')
- 
+
 def stopGameThread():
     global gameThread
     if (verbose>=1):
@@ -153,7 +153,7 @@ def stopGameThread():
     except:
         if (verbose>=2):
             print('Impossibile stoppare il game thread (potrebbe essere già stoppato')
- 
+
 def lightsOff():
     errorCount = 0
     if (verbose>=1):
@@ -211,8 +211,8 @@ def sendColorCommand(windowId, colorId):
     else:
         requests.get('http://'+ips[windowId]+'?ledoff', timeout=0.2)
         changeWindowColor(windowId, "#222222")
-        
- 
+
+
 def handle(msg):
     global stato
     global timeDelay
@@ -285,7 +285,7 @@ def handle(msg):
             bot.sendMessage(chatId, 'Comando non riconosciuto.\n\nScrivi /help per la lista dei comandi.', parse_mode='markdown')
     except:
         pass
- 
+
 def lightGame():
     thisStato = stato
     if (stato==0):
@@ -387,14 +387,14 @@ def lightGame():
             time.sleep(timeDelay*0.001)
 	except requests.exceptions.RequestException:
 	    print('Error sending command')
- 
+
 print("TIME ART DAEMON - V. 1.0.0")
- 
+
 # AVVIO BOT TELEGRAM #
 bot = telepot.Bot(botToken)
 telepot.loop.MessageLoop(bot, handle).run_as_thread()
 print("Telegram bot: ok")
- 
+
 # THREAD PER CONTROLLO CONTINUO STATO ARDUINO #
 checkThread = ThreadManager(function = checkArduinoOnline)
 checkThread.start()
