@@ -34,4 +34,4 @@ In _src/main.js_: edit ___SERVER_HOST___ with the IP of the server where app.py 
 npm start               # allow only access from localhost
 HOST=0.0.0.0 npm start  # allow access outside localhost
 ```
-The client run on port 8080, so you can use it typing __http://[YOUR_IP]:8080__ in your web browser.
+The client run on port 8080, so you can use it by typing __http://[YOUR_IP]:8080__ in your web browser.

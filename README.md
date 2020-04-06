@@ -17,11 +17,11 @@ In this case you must download the library [Ethernet2](Ethernet2.zip) from [here
 The RGB lights we will use are natively controlled by an infrared remote control, so to control them from Arduino we will use an infrared LED for every light.
 
 ## Final result during "Notte al Museo 2018"
-[![Youtube video](https://i.imgur.com/JWMqlmT.jpg)](https://youtu.be/6DH9gzSgO6w)  
+[![Youtube video](https://i.imgur.com/vUrBrXx.jpg)](https://youtu.be/6DH9gzSgO6w)  
 [Youtube video](https://youtu.be/6DH9gzSgO6w).
 
 ## Elettricittà fair 2019
-![Raul and Cristian at the project fair booth](https://i.imgur.com/Oie5h9C.jpg)  
+![Raul and Cristian at the project fair booth](https://i.imgur.com/6QTJpVN.jpg)  
 _[Raul](https://github.com/Raul178) and [Cristian](https://github.com/cristianlivella) at the project fair booth._
 
 In May 2019 we presented the project at Elettricittà fair, organised by [Barcella Elettroforniture](https://www.barcella.it/).  
