@@ -1,5 +1,5 @@
 # Project Lamp - Barcella Elettricittà
-In May 2019 we presented the project at Elettricittà fair, organised by [Barcella Elettroforniture](https://www.barcella.it/) at the [Bergamo Exhibition Center](https://www.bergamofiera.it/). We did some improvements for the occasion: we realized a new Telegram bot, simpler and easier to use, and a new web app, to control the lamps also with a computer, using a web browser. Here you can find all you need to run the project. We used the same Arduino sketch made last year, so you can refer [here](link_to_fix).
+In May 2019 we presented the project at Elettricittà fair, organised by [Barcella Elettroforniture](https://www.barcella.it/) at the [Bergamo Exhibition Center](https://www.bergamofiera.it/). We did some improvements for the occasion: we realized a new Telegram bot, simpler and easier to use, and a new web app, to control the lamps also with a computer, using a web browser. Here you can find all you need to run the project. We used the same Arduino sketch made last year, so you can refer [here](../2018.05.31%20-%20Final%20outcome).
 
 ![Raul and Cristian at the project fair booth](https://i.imgur.com/2YJMY7H.jpg)
 _[Raul](https://github.com/Raul178) and [Cristian](https://github.com/cristianlivella) at the project fair booth._
