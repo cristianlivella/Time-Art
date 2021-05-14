@@ -1,4 +1,4 @@
-sketch.ino#include <SPI.h>
+#include <SPI.h>
 #include <Ethernet2.h>
 #include <IRremote.h>
 
