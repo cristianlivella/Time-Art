@@ -7,7 +7,7 @@ The LEDs can be controlled with a web page on the Raspberry and with a Telegram 
 You can also use more then two Arduino, just insert all the IPs in the array `$IPs` in `config.php` on Raspberry.
 
 ## Circuit
-![Circuit](https://i.imgur.com/eXkAa2X.png)
+![Circuit](../../Images/Various/04.png)
 
 ## Arduino sketch
 Upload the sketch [controlLedEthernet.ino](controlLedEthernet.ino) on each Arduino; **remember to edit** the MAC address (it is printed on a label on the shield) and the IP address (must be different for each device).
@@ -15,7 +15,7 @@ Upload the sketch [controlLedEthernet.ino](controlLedEthernet.ino) on each Ardui
 ## Webserver
 Download the folder [html](html), put all the files in `/var/www/html/` on your Raspberry PI and edit `config.php` with the IPs of your Arduino.  
 You can now open a web browser and insert the IP of your Raspberry in the address bar to access to the dashboard.
-![Screenshot](https://i.imgur.com/vaQYsyz.png)
+![Screenshot](../../Images/Various/05.png)
 
 ## Telegram bot configuration
 If you want to control the LEDs also with a Telegram bot, you have to:
