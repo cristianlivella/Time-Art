@@ -5,7 +5,7 @@ We used this test to try the communication with Arduino Ethernet Shield 2, contr
 [***Raspberry PI as router and server***](../001_Raspberry_PI_as_router_and_server/README.md).
 
 ## Circuit
-![Circuit](https://i.imgur.com/GFU5OVK.png)
+![Circuit](../../Images/Various/03.png)
 
 ## Arduino sketch
 [ethernetBlink.ino](ethernetBlink.ino)
